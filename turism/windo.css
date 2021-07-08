@@ -1,0 +1,553 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo img{
+    display: block;
+    width: 170px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0px;
+}
+.container ul {
+    display: flex;
+    list-style: none;
+    padding: 5px ;
+    flex-wrap: wrap;
+}
+.container ul li{
+    padding: 0px 5px;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container ul ul{
+    display: none;
+}
+.container ul ul>li{
+   background-color:white;
+}
+.container ul li:hover>ul{
+    display: block;
+}
+.container ul li:hover{
+    background-color: white;
+color: white;
+}
+.section-1{
+    height: 500px;
+}
+.section-1::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    background-image: url("https://static.clubmahindra.com/storage/temp/public/794/789/659/Khajuraho%20Temples-1270900036__.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 680px;
+    z-index: -1;
+}
+.section-2{
+    height: 470px;
+}
+.section-2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont1 img{
+    width: 900px;
+}
+.section-3{
+    height: 370px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #810522;
+    color: white;
+}
+.section-3 h1{
+text-align: center;
+padding: 20px;
+font-size: 2rem;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1 label{
+    text-align: center;
+}
+.section-3 input{
+    margin-right: 10px;
+}
+.section-3 h3{
+    text-align: center;
+    padding: 30px;
+}
+.section-3 button{
+    padding: 15px 60px;
+    background-color: #250928;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.section-3 button:hover{
+background-color:rgb(32, 111, 138);
+}
+.f1 #na{
+    padding: 20px;
+    background: none;
+    color: white;
+    margin-right: 15px;
+    border: 1px solid white;
+}
+.f2 #na1{
+    padding: 20px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.gg{
+    color: black;
+}
+.section-3 button{
+    margin-top: 45px;
+}
+.section-4{
+    height: 550px;
+    background-color: rgb(219, 219, 179);
+}
+.fi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fi li{
+    list-style: none;
+}
+.fi1 img{
+    transition: 0.6s;
+}
+.fi1 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.fi h3{
+    text-align: center;
+    padding: 15px;
+}
+.fi1 img{
+    display: block;
+    width: 280px;
+}
+.fi1{
+    margin-top: 40px;
+    background-color:#e3e3e3;
+    padding-bottom: 25px;
+}
+.fi2 img{
+    display: block;
+    width: 280px; 
+    height: 220px;
+    transition: 0.5s;
+}
+.fi2 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.fi2{
+    margin-top: 40px;
+    background-color: #e3e3e3;
+    padding-bottom: 25px;
+}
+.f3 img{
+    display: block;
+    width: 280px;
+    height: 220px;
+    transition: 0.5s;
+}
+.f3 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.f3{
+    margin-top: 40px;
+    background-color: #e3e3e3;
+    padding-bottom: 25px;
+    
+}
+.f4 img{
+    display: block;
+    width: 280px; 
+    height: 220px;
+    transition: 0.5s;
+}
+.f4 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.f4{
+    margin-top: 40px;
+    background-color: #e3e3e3;
+    padding-bottom: 25px;
+}
+.section-5{
+    height: 500px;
+    border: 1px solid black;
+    color: white;
+}
+.section-5::before{
+    position: absolute;
+    content: "";
+    background-image: url("https://www.adotrip.com/public/images/events/master_images/5e2ea50e7efcf-Khajurao_Dance_Festival_Attractions.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+.kk{
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    align-items: center;
+}
+.section-5 h1{
+    text-align: center;
+    margin-top: 120px;
+    padding: 15px;
+}
+.section-5 p{
+    text-align: center;
+    padding: 5px;
+}
+.section-5 button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.section-5 button:hover{
+    background-color: gray;
+}
+
+.section-6{
+    height: 808px;
+    width: 67.3%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.section-6 h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+.sec1 ul{
+  display: flex;
+}
+.sec1 ul li{
+    list-style: none;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec1 ul li:hover{
+    transform: scale(0.9);
+}
+.sec ul{
+  display: flex;
+}
+.sec ul li{
+    list-style: none;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+#aa{
+    display: block;
+    width: 502px;
+}
+.sec2 ul{
+    display: flex;
+}
+.sec2 ul li{
+    list-style: none;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec2 ul li:hover{
+    transform: scale(0.9);
+}
+.sec ul li:hover{
+    transform: scale(0.9);
+}
+.section-7{
+    height: 800px;
+    border: 0.1px solid rgb(31, 29, 29);
+}
+.section-7::before{
+    position: absolute;
+content: "";
+background-image: url("https://images.assetsdelivery.com/compings_v2/gile68/gile681411/gile68141100122.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+width: 100%;
+z-index: -1;
+}
+.section-7 h1{
+    text-align: center;
+    padding: 30px;
+}
+.section-7 form input{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 580px;
+padding-left: 10px;
+margin: 5px;
+border: 1px solid white;
+color: white;
+}
+ button{
+    padding:10px 60px;
+    margin: 5px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #d7c66a;
+}
+.form{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin:160px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    background-color: #810522;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+#hh{
+    border: 1px solid white;
+}
+.form h1{
+    color: white;
+}
+textarea{
+    margin: 5px;
+    padding: 10px;
+}
+#col{
+    padding-right: 578px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+.cont2 ul{
+display: flex;
+}
+.cont2 ul li{
+    padding-right:80px;
+    list-style: none;  
+}
+.kk ul li{
+    padding-right: 80px;
+    margin-right: 80px;
+    line-height: 60px;
+}
+.kk ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.container22{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2b2b;
+}
+.container22 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
+.container22 ul li{
+    padding-right: 20px;
+    list-style: none;
+}
+.aa{
+    display: flex;
+    flex-direction: column;
+}
+.a{
+    font-size: 1.2rem;
+}
+.aa1{
+    display: flex;
+    flex-direction: column;
+}
+.aa2{
+    display: flex;
+    flex-direction: column;
+}
+.logo1 img{
+    height: 350px;
+}
+
+@media (max-width:1300px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  .section-6{
+      display: none;
+  }
+  .section-4{
+      height: auto;
+      text-align: center;
+  }
+  .fi{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .section-2{
+      height: auto;
+  }
+  .cont{
+      display: flex;
+      flex-direction: column;
+  }
+  .section-7{
+    height: 900px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+  }
+  .section-7::before{
+    position: absolute;
+content: "";
+background-image: url("https://images.assetsdelivery.com/compings_v2/gile68/gile681411/gile68141100122.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+width: 100%;
+z-index: -1;
+}
+  .section-7 form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    color: white;
+    }
+    #col{
+        padding: 30px;
+    }
+    .kk ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        height: auto;
+    }
+    .cont1 img{
+        width: 300px;
+    }
+    .aa li{
+        display:none;
+    }
+    .aa1 li{
+        display: none;
+    }
+    .aa2 li{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .container22{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    footer{
+        height: 680px;
+        background-color: black;
+        text-align: center;
+    }
+    .section-5{
+        height: 700px;
+    }
+    .section-5::before{
+        position: absolute;
+        content: "";
+        background-image: url("https://www.adotrip.com/public/images/events/master_images/5e2ea50e7efcf-Khajurao_Dance_Festival_Attractions.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        z-index: -1;
+    }
+    .section-3{
+        height: 520px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        margin-bottom: 20px;
+    }
+    .ll{
+        padding: 120px;
+    }
+    ll1{
+        padding: 120px;
+    }
+}
